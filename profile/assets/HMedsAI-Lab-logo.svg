@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">HMedsAI Lab Logo</title>
+  <desc id="desc">Hybrid Medical and Secure Artificial Intelligence Laboratory</desc>
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071B4A"/>
+      <stop offset="1" stop-color="#114FA3"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09D9DD"/>
+      <stop offset="1" stop-color="#08758E"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B2D67"/>
+      <stop offset="1" stop-color="#0CCED0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#071B4A" flood-opacity=".20"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="130" y="65" width="175" height="330" rx="42" fill="url(#navy)"/>
+    <rect x="500" y="65" width="175" height="330" rx="42" fill="url(#teal)"/>
+    <rect x="275" y="205" width="255" height="86" rx="28" fill="#0B3977"/>
+
+    <g fill="none" stroke="#13E4E7" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M165 250 H345 L377 250 L404 188 L441 322 L478 250 H635"/>
+      <path d="M150 365 C285 455 505 435 690 170"/>
+    </g>
+
+    <path d="M655 112 L744 142 L699 220 Z" fill="#13E4E7"/>
+
+    <g fill="#13E4E7">
+      <circle cx="180" cy="130" r="18"/>
+      <circle cx="245" cy="185" r="14"/>
+      <circle cx="175" cy="250" r="22"/>
+      <circle cx="250" cy="305" r="15"/>
+      <circle cx="180" cy="350" r="17"/>
+    </g>
+    <g fill="none" stroke="#13E4E7" stroke-width="10" stroke-linecap="round">
+      <path d="M180 130 L245 185 L175 250 L250 305 L180 350"/>
+      <path d="M175 250 L250 305"/>
+    </g>
+
+    <path d="M402 342 L450 318 L498 342 V404 C498 446 476 477 450 493 C424 477 402 446 402 404 Z"
+          fill="url(#shield)" stroke="#FFFFFF" stroke-width="7"/>
+    <path d="M437 366 H463 V392 H489 V418 H463 V444 H437 V418 H411 V392 H437 Z"
+          fill="#FFFFFF"/>
+  </g>
+
+  <text x="450" y="555" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800"
+        letter-spacing="-2" fill="#09265D">HMeds<tspan fill="#08AEB9">AI</tspan></text>
+  <text x="450" y="594" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="600"
+        letter-spacing="3" fill="#3E617D">HYBRID MEDICAL • SECURE AI</text>
+</svg>
